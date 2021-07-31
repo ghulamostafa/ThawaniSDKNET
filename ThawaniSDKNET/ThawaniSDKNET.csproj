@@ -2,6 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Ghulam Mustafa</Authors>
+    <PackageId>ThawaniPaySDKNET</PackageId>
+    <Product>ThawaniPaySDKNET (.NET 2.0 Standard)</Product>
+    <Description>This is an unofficial SDK for connecting Thawani Pay in your .NET application. This version is for .NET 2.0 Standard. The Package called ThawaniPaySDK is for .NET Core and .NET 5.0</Description>
+    <PackageProjectUrl>https://ghulamustafa.com</PackageProjectUrl>
+    <PackageIcon>icon.jpg</PackageIcon>
+    <PackageIconUrl />
+    <RepositoryUrl>https://github.com/ghulamostafa/ThawaniSDKNET</RepositoryUrl>
+    <PackageTags>Thawani, Payment, Oman, Omannet</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
@@ -9,6 +18,13 @@
     <PackageReference Include="RestSharp.Serializers.NewtonsoftJson" Version="106.12.0" />
     <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
     <PackageReference Include="System.Text.Json" Version="5.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\icon.jpg">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
